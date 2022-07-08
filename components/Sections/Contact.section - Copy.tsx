@@ -1,6 +1,7 @@
 import type { NextComponentType } from "next";
 
 import {
+  BsSpotify,
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,

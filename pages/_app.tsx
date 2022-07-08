@@ -31,34 +31,30 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Akhil | Student Researcher"
+        titleTemplate="Akhil | Student Researcher"
+        defaultTitle="Akhil | Student Researcher"
+        description="Hey! I'm Akhil, a student researcher and developer!"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "",
+          title: "Akhil | Student Researcher",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "Hey! I'm Akhil, a student researcher and developer!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Akhil | Student Researcher",
             },
           ],
         }}
-        twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
-          cardType: "summary_large_image",
-        }}
+        
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "student researcher, astronomy, astrophysics, akhil, akhil nair, web development, web developer, tech enthusiast, open source",
           },
         ]}
       />

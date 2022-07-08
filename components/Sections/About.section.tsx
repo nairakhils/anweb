@@ -9,34 +9,35 @@ const About: NextComponentType = () => {
   return (
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
-        <p className="text-3xl font-bold text-white">Anurag</p>
+        <p className="text-3xl font-bold text-white">Akhil Nair</p>
         <p className="mt-1 text-lg text-gray-300">
-          Frontend Developer, Blogger and a Student
+          Student Researcher in Astrophysics (MSc. Physics)
         </p>
 
         <p className="mt-4 text-gray-400">
-          Building Web apps, proficient in Frontend. Writing articles <br /> on
-          my blog sometimes.
+          Working on extragalactic astronomy topics such as Active Galactic Nuclei, Radio Quasars, etc. 
+          <br/> Building Machine learning & Deep Learning apps for astronomy & non-astronomy projects.  
+          <br/> Building web-apps for astronomy and non-astronomy projects.
         </p>
 
-        <Link href="https://blog.anurag.tech" passHref>
+        <Link href="https://github.com/nairakhils" passHref>
           <a
             className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read my Blog
+            Check my Github
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
 
-        <Link href="https://sponsor.anurag.tech" passHref>
+        <Link href="" passHref>
           <a
             className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Love my work? Sponsor me!
+            Adding Resume link soon!
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
@@ -44,7 +45,7 @@ const About: NextComponentType = () => {
 
       <div className="hidden custom:block">
         <Image
-          src="/assests/avatar.png"
+          src="/assests/avatar.jpg"
           width="112"
           height="112"
           className="rounded-full"
